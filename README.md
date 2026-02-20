@@ -3,6 +3,8 @@
 This repository contains the source code used in the study:
 
 **Hybrid nonlinear preconditioning approach for phase-field model with double-obstacle potential**
+Shinji Sakane, Tomohiro Takaki
+Computational Materials Science (Accepted)
 
 This code implements a hybrid nonlinear preconditioning method that improves the numerical stability and accuracy of phase-field simulations using the double-obstacle (DO) potential, particularly under coarse interface resolution. The method combines nonlinear preconditioning models based on both double-obstacle and double-well (DW) potentials.
 
@@ -19,18 +21,18 @@ This code implements a hybrid nonlinear preconditioning method that improves the
 HNP_DO_PF/
 ├── 2D_MPF_DO/                   # Conventional Implementation
 │   ├── SingleGrain/                 # Sample for single grain growth (δ=4Δx, Δf=5e5 J/m^3)
-│       ├── 2D_MPF_DO.c              # Source code 
-│       ├── make.sh
-│       └── run.sh
+│   │   ├── 2D_MPF_DO.c              # Source code 
+│   │   ├── make.sh
+│   │   └── run.sh
 │   └── TripleJunction/              # Sample for triple junction migration (δ=4Δx, γA/γB=1.0)
 │       ├── 2D_MPF_DO.c              # Source code
 │       ├── make.sh
 │       └── run.sh
 ├── 2D_MPF_HNP_DO/               # hybrid nonlinear preconditioning Implementation
 │   ├── SingleGrain/                 # Sample for single grain growth (δ=4Δx, Δf=5e5 J/m^3)
-│       ├── 2D_MPF_HNP_DO.c          # Source code
-│       ├── make.sh
-│       └── run.sh
+│   │   ├── 2D_MPF_HNP_DO.c          # Source code
+│   │   ├── make.sh
+│   │   └── run.sh
 │   └── TripleJunction/              # Sample for triple junction migration (δ=4Δx, γA/γB=1.0)
 │       ├── 2D_MPF_HNP_DO.c          # Source code
 │       ├── make.sh
