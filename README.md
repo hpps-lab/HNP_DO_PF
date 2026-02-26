@@ -2,7 +2,9 @@
 
 This repository contains the source code used in the study:
 
-S. Sakane, T. Takaki, "Hybrid nonlinear preconditioning approach for phase-field model with double-obstacle potential", Computational Materials Science xxx (2026) 114600 (Accepted).
+S. Sakane, T. Takaki, "Hybrid nonlinear preconditioning approach for phase-field model with double-obstacle potential", Computational Materials Science 267 (2026) 114600. DOI: https://doi.org/10.1016/j.commatsci.2026.114600
+
+![Graphical abstract](https://ars.els-cdn.com/content/image/1-s2.0-S0927025626001199-ga1_lrg.jpg)
 
 This code implements a hybrid nonlinear preconditioning method that improves the numerical stability and accuracy of phase-field simulations using the double-obstacle (DO) potential, particularly under coarse interface resolution. The method combines nonlinear preconditioning models based on both double-obstacle and double-well (DW) potentials.
 
@@ -83,6 +85,6 @@ This code is released under the MIT License. See LICENSE for details.
 
 ## Citation
 
-If you use this code in your research, please cite the following paper:
+If you use this approach in your research, please cite the following paper:
 
-S. Sakane, T. Takaki, "Hybrid nonlinear preconditioning approach for phase-field model with double-obstacle potential", Computational Materials Science xxx (2026) 114600 (Accepted).
+S. Sakane, T. Takaki, "Hybrid nonlinear preconditioning approach for phase-field model with double-obstacle potential", Computational Materials Science 267 (2026) 114600. DOI: https://doi.org/10.1016/j.commatsci.2026.114600
